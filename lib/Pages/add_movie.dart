@@ -71,11 +71,11 @@ class _AddMoviePageState extends State<AddMoviePage> {
     }
   }
 
-  @override
-  void dispose() {
-    Hive.close();
-    super.dispose();
-  }
+  // @override
+  // void dispose() {
+  //   Hive.close();
+  //   super.dispose();
+  // }
 
   @override
   Widget build(BuildContext context) {
