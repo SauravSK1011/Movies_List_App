@@ -8,7 +8,7 @@ A new Flutter project.
 Cloning this repository
 
 ```bash
-  $ git clone https://github.com/SauravSK1011/AI_Translator.git
+  $ git clone https://github.com/SauravSK1011/Movies_List_App.git
 ```
 **Installing dependencies**
 ```bash
