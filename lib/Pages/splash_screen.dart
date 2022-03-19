@@ -15,14 +15,22 @@ class _SplashScreenState extends State<SplashScreen> {
   bool visible = false;
   @override
   void initState() {
+
+    super.initState();
+    settimer2();
+    settimer();
+  }
+
+  settimer2() async {
+    var duration = Duration(seconds: 1);
+    return Timer(duration, settrue);
+  }
+
+  settrue() {
     setState(() {
       selected = true;
       visible = true;
     });
-
-    super.initState();
-        settimer();
-
   }
 
   settimer() async {
